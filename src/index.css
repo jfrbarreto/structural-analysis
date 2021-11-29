@@ -1,13 +1,103 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #33393f;
+  color: #d4d4d4;
+  font-size: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  background-color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+div {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 24px;
+}
+
+a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.margin16 {
+  margin: 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  justify-content: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.stretch {
+  width: 95%;
+  margin: 32px
+}
+
+.structure-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d4d4d4;
+  min-width: 200px;
+  padding: 8px;
+}
+
+.structure-header {
+  text-align: center;
+  border-bottom: 2px dashed #d4d4d4;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+.structure-row {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  justify-content: space-between;
+}
+
+.structure-score {
+  border: 1px solid #d4d4d447;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+}
+
+.red {
+  color: #ed2461;
+}
+
+.orange {
+  color: #ff8300;
+}
+
+.green {
+  color: #32cd30;
+}
+
+.blue {
+  color: #11a7bb;
 }

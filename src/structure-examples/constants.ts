@@ -1,0 +1,10 @@
+export const RENDER_BASED = "[Render Based Profiler]:";
+export const PROPS_BASED = "[Props Based Profiler]:";
+export const HOOK_BASED = "[Hook Based Profiler]:";
+export const HYBRID_BASED = "[Hybrid Based Profiler]:";
+export const STRUCTURE_RENDER = "--- Structure render ---";
+export const INPUT_BLOCK_RENDER = "--- InputBlock render ---";
+export const PREVIEW_BLOCK_RENDER = "--- PreviewBlock render ---";
+export const BUTTON_BLOCK_RENDER = "--- ButtonBlock render ---";
+export const TABLE_BLOCK_RENDER = "--- TableBlock render ---";
+export const TABLE_BLOCK_INNER_RENDER = "--- TableBlock Inner render ---";
